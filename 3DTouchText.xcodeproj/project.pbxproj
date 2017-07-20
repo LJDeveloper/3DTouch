@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04725FDD1DD98A6300D72899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04725FDC1DD98A6300D72899 /* main.m */; };
+		04725FE01DD98A6300D72899 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04725FDF1DD98A6300D72899 /* AppDelegate.m */; };
+		04725FE31DD98A6300D72899 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04725FE21DD98A6300D72899 /* ViewController.m */; };
+		04725FE61DD98A6300D72899 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04725FE41DD98A6300D72899 /* Main.storyboard */; };
+		04725FE81DD98A6300D72899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04725FE71DD98A6300D72899 /* Assets.xcassets */; };
+		04725FEB1DD98A6300D72899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04725FE91DD98A6300D72899 /* LaunchScreen.storyboard */; };
+		726A9D3D27273B3B7D38585A /* libPods-3DTouchText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C85798D1DCE94FCE99741014 /* libPods-3DTouchText.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04725FD81DD98A6300D72899 /* 3DTouchText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DTouchText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04725FDC1DD98A6300D72899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04725FDE1DD98A6300D72899 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04725FDF1DD98A6300D72899 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04725FE11DD98A6300D72899 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04725FE21DD98A6300D72899 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04725FE51DD98A6300D72899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04725FE71DD98A6300D72899 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04725FEA1DD98A6300D72899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04725FEC1DD98A6300D72899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A364B0DCBA9FA3F3FF65A95 /* Pods-3DTouchText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchText.release.xcconfig"; path = "Pods/Target Support Files/Pods-3DTouchText/Pods-3DTouchText.release.xcconfig"; sourceTree = "<group>"; };
+		B188B136F3778EC0EF866DD2 /* Pods-3DTouchText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DTouchText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DTouchText/Pods-3DTouchText.debug.xcconfig"; sourceTree = "<group>"; };
+		C85798D1DCE94FCE99741014 /* libPods-3DTouchText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-3DTouchText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04725FD51DD98A6300D72899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				726A9D3D27273B3B7D38585A /* libPods-3DTouchText.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04725FCF1DD98A6300D72899 = {
+			isa = PBXGroup;
+			children = (
+				04725FDA1DD98A6300D72899 /* 3DTouchText */,
+				04725FD91DD98A6300D72899 /* Products */,
+				53E097F4CF176A7BF97386A9 /* Pods */,
+				1458CEC5E2EEC26958CBE9B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04725FD91DD98A6300D72899 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04725FD81DD98A6300D72899 /* 3DTouchText.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04725FDA1DD98A6300D72899 /* 3DTouchText */ = {
+			isa = PBXGroup;
+			children = (
+				04725FDE1DD98A6300D72899 /* AppDelegate.h */,
+				04725FDF1DD98A6300D72899 /* AppDelegate.m */,
+				04725FE11DD98A6300D72899 /* ViewController.h */,
+				04725FE21DD98A6300D72899 /* ViewController.m */,
+				04725FE41DD98A6300D72899 /* Main.storyboard */,
+				04725FE71DD98A6300D72899 /* Assets.xcassets */,
+				04725FE91DD98A6300D72899 /* LaunchScreen.storyboard */,
+				04725FEC1DD98A6300D72899 /* Info.plist */,
+				04725FDB1DD98A6300D72899 /* Supporting Files */,
+			);
+			path = 3DTouchText;
+			sourceTree = "<group>";
+		};
+		04725FDB1DD98A6300D72899 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04725FDC1DD98A6300D72899 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1458CEC5E2EEC26958CBE9B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C85798D1DCE94FCE99741014 /* libPods-3DTouchText.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53E097F4CF176A7BF97386A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B188B136F3778EC0EF866DD2 /* Pods-3DTouchText.debug.xcconfig */,
+				8A364B0DCBA9FA3F3FF65A95 /* Pods-3DTouchText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04725FD71DD98A6300D72899 /* 3DTouchText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04725FEF1DD98A6300D72899 /* Build configuration list for PBXNativeTarget "3DTouchText" */;
+			buildPhases = (
+				FF1ACF6C6FA516C42866AFF2 /* [CP] Check Pods Manifest.lock */,
+				04725FD41DD98A6300D72899 /* Sources */,
+				04725FD51DD98A6300D72899 /* Frameworks */,
+				04725FD61DD98A6300D72899 /* Resources */,
+				D136891F1DEAE6F6DFB59D01 /* [CP] Embed Pods Frameworks */,
+				E159BA7EB8739167A7723782 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3DTouchText;
+			productName = 3DTouchText;
+			productReference = 04725FD81DD98A6300D72899 /* 3DTouchText.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04725FD01DD98A6300D72899 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "沸腾医疗";
+				TargetAttributes = {
+					04725FD71DD98A6300D72899 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RUJ7S3GZH6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04725FD31DD98A6300D72899 /* Build configuration list for PBXProject "3DTouchText" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04725FCF1DD98A6300D72899;
+			productRefGroup = 04725FD91DD98A6300D72899 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04725FD71DD98A6300D72899 /* 3DTouchText */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04725FD61DD98A6300D72899 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04725FEB1DD98A6300D72899 /* LaunchScreen.storyboard in Resources */,
+				04725FE81DD98A6300D72899 /* Assets.xcassets in Resources */,
+				04725FE61DD98A6300D72899 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D136891F1DEAE6F6DFB59D01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DTouchText/Pods-3DTouchText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E159BA7EB8739167A7723782 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-3DTouchText/Pods-3DTouchText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1ACF6C6FA516C42866AFF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04725FD41DD98A6300D72899 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04725FE31DD98A6300D72899 /* ViewController.m in Sources */,
+				04725FE01DD98A6300D72899 /* AppDelegate.m in Sources */,
+				04725FDD1DD98A6300D72899 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04725FE41DD98A6300D72899 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04725FE51DD98A6300D72899 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04725FE91DD98A6300D72899 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04725FEA1DD98A6300D72899 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04725FED1DD98A6300D72899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04725FEE1DD98A6300D72899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04725FF01DD98A6300D72899 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B188B136F3778EC0EF866DD2 /* Pods-3DTouchText.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RUJ7S3GZH6;
+				INFOPLIST_FILE = 3DTouchText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feiteng.-DTouchText";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04725FF11DD98A6300D72899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A364B0DCBA9FA3F3FF65A95 /* Pods-3DTouchText.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = RUJ7S3GZH6;
+				INFOPLIST_FILE = 3DTouchText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feiteng.-DTouchText";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04725FD31DD98A6300D72899 /* Build configuration list for PBXProject "3DTouchText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04725FED1DD98A6300D72899 /* Debug */,
+				04725FEE1DD98A6300D72899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04725FEF1DD98A6300D72899 /* Build configuration list for PBXNativeTarget "3DTouchText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04725FF01DD98A6300D72899 /* Debug */,
+				04725FF11DD98A6300D72899 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04725FD01DD98A6300D72899 /* Project object */;
+}

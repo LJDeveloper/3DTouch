@@ -1,0 +1,3 @@
+target '3DTouchText' do 
+pod 'MBProgressHUD', '~> 0.8'
+end
